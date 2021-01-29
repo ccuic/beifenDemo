@@ -1,0 +1,25 @@
+[
+  {
+    "description": "This is a CDX to Baidu .",
+    "request":{
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "This is a CDX to Ziji .",
+    "request":{
+      "uri": "/redirect2"
+    },
+    "redirectTo": "/redirect/new"
+  },
+  {
+    "description": "This is a Bei CDX Page.",
+    "request":{
+      "uri": "/redirect/new"
+    },
+    "response": {
+      "text":"This is New 555555."
+    }
+  }
+]

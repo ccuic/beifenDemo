@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<suite name="IVR测试套件">
+
+    <test name="IVR测试用例">
+        <classes>
+            <class name="com.course.IVR.I51getLoanInfo">
+                <methods>
+                    <include name="s1"/>
+                    <include name="s2"/>
+                    <include name="s3"/>
+                    <include name="s4"/>
+                    <include name="s5"/>
+                    <include name="s6"/>
+                    <include name="f1"/>
+                    <include name="f2"/>
+                    <include name="f3"/>
+                    <include name="f4"/>
+                    <include name="f5"/>
+                    <include name="f6"/>
+                    <include name="f7"/>
+                    <include name="f8"/>
+                    <include name="f9"/>
+                    <include name="f10"/>
+                    <include name="f11"/>
+                    <include name="f12"/>
+                </methods>
+            </class>
+            <class name="com.course.IVR.I52getActualAmount">
+                <methods>
+                    <include name="s1"/>
+                    <include name="f1"/>
+                    <include name="f2"/>
+                    <include name="f3"/>
+                    <include name="f4"/>
+                    <include name="f5"/>
+                    <include name="f6"/>
+                    <include name="f7"/>
+                    <include name="f8"/>
+                    <include name="f9"/>
+                    <include name="f10"/>
+                    <include name="f11"/>
+                    <include name="f12"/>
+                </methods>
+            </class>
+            <class name="com.course.IVR.I53userInfo">
+                <methods>
+                    <include name="s1"/>
+                    <include name="f1"/>
+                    <include name="f2"/>
+                    <include name="f3"/>
+                    <include name="f4"/>
+                    <include name="f5"/>
+                    <include name="f6"/>
+                    <include name="f7"/>
+                    <include name="f8"/>
+                    <include name="f9"/>
+                    <include name="f10"/>
+                    <include name="f11"/>
+                    <include name="f12"/>
+                </methods>
+            </class>
+            <class name="com.course.IVR.I54sendSms">
+                <methods>
+                    <include name="s1"/>
+                    <include name="s2"/>
+                    <include name="s3"/>
+                    <include name="s4"/>
+                    <include name="f1"/>
+                    <include name="f2"/>
+                    <include name="f3"/>
+                    <include name="f4"/>
+                    <include name="f5"/>
+                    <include name="f6"/>
+                    <include name="f7"/>
+                    <include name="f8"/>
+                    <include name="f9"/>
+                    <include name="f10"/>
+                    <include name="f11"/>
+                    <include name="f12"/>
+                    <include name="f13"/>
+                    <include name="f14"/>
+                    <include name="f15"/>
+                </methods>
+            </class>
+            <class name="com.course.IVR.I55repayInfo">
+                <methods>
+                    <include name="s1"/>
+                    <include name="s2"/>
+                    <include name="s3"/>
+                    <include name="s4"/>
+                    <include name="s5"/>
+                    <include name="f1"/>
+                    <include name="f2"/>
+                    <include name="f3"/>
+                    <include name="f4"/>
+                    <include name="f5"/>
+                    <include name="f6"/>
+                    <include name="f7"/>
+                    <include name="f8"/>
+                    <include name="f9"/>
+                    <include name="f10"/>
+                    <include name="f11"/>
+                    <include name="f12"/>
+                </methods>
+            </class>
+<!--            <class name="com.course.cases.CuiShouFindTest">-->
+<!--                <methods>-->
+<!--                    <include name="loginTrue2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.course.cases.LoginTest">-->
+<!--                <methods>-->
+<!--                    <include name="loginTrue"/>-->
+<!--                    <include name="loginFalse"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.course.cases.AddUserTest">-->
+<!--                <methods>-->
+<!--                    <include name="addUser"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.course.cases.GetUserInfoTest">-->
+<!--                <methods>-->
+<!--                    <include name="getUserInfo"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.course.cases.UpdateUserInfoTest">-->
+<!--                <methods>-->
+<!--                    <include name="updateUserInfo"/>-->
+<!--                    <include name="deleteUser"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="com.course.cases.GetUserInfoListTest">-->
+<!--                <methods>-->
+<!--                    <include name="getUserListInfo"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.course.cases.a">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <listeners>
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener" />
+    </listeners>
+
+</suite>

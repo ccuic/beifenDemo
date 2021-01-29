@@ -1,0 +1,40 @@
+2020-12-08 10:25:58.688 [main] INFO  com.course.Application - Starting Application on qh12019080255 with PID 5640 (D:\softwareTest\autotest\demo\chapter13\target\classes started by cuixiaoming01 in D:\softwareTest\autotest\demo)
+2020-12-08 10:25:58.693 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2020-12-08 10:25:59.502 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-12-08 10:25:59.730 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 10:25:59.905 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-12-08 10:25:59.912 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 10:25:59.913 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-08 10:26:00.048 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 10:26:00.048 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1291 ms
+2020-12-08 10:26:00.607 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 10:26:00.744 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-12-08 10:26:00.790 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-08 10:26:00.807 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-08 10:26:00.826 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-08 10:26:01.123 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-08 10:26:01.127 [main] INFO  com.course.Application - Started Application in 3.021 seconds (JVM running for 4.008)
+2020-12-08 10:26:07.342 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 10:26:07.342 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-08 10:26:07.349 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-08 10:26:07.422 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 10:26:07.424 [http-nio-8888-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-08 10:26:07.576 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 10:26:07.618 [http-nio-8888-exec-1] INFO  com.course.controller.userManagerController - 查询到的结果是 1
+2020-12-08 10:26:07.686 [http-nio-8888-exec-4] INFO  com.course.controller.userManagerController - 查询到的结果是 0
+2020-12-08 17:56:19.009 [main] INFO  com.course.Application - Starting Application on qh12019080255 with PID 13684 (D:\softwareTest\autotest\demo\chapter13\target\classes started by cuixiaoming01 in D:\softwareTest\autotest\demo)
+2020-12-08 17:56:19.014 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2020-12-08 17:56:20.167 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-12-08 17:56:20.505 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 17:56:20.725 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-12-08 17:56:20.733 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 17:56:20.733 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-12-08 17:56:20.818 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 17:56:20.818 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1620 ms
+2020-12-08 17:56:21.382 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 17:56:21.491 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-12-08 17:56:21.519 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-08 17:56:21.530 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-08 17:56:21.539 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-08 17:56:21.737 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-08 17:56:21.740 [main] INFO  com.course.Application - Started Application in 3.336 seconds (JVM running for 4.366)

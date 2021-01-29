@@ -1,0 +1,26 @@
+[
+  {
+    "description": "One no param Get request",
+    "request":{
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text":"This is a no param get request111."
+    }
+  },
+  {
+    "description": "One have param Get request",
+    "request":{
+      "uri": "/getdemop",
+      "method": "get",
+      "queries": {
+        "name": "jack",
+        "age": "23"
+      }
+    },
+    "response": {
+      "text":"This is a have param get request222."
+    }
+  }
+]

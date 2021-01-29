@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<suite name="贷后测试套件">
+
+    <test name="贷后测试用例">
+        <classes>
+            <class name="com.daihou.pingfenka.pingfen">
+                <methods>
+                    <include name="s1"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <listeners>
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener" />
+    </listeners>
+
+</suite>

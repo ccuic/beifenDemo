@@ -1,0 +1,26 @@
+[
+  {
+    "description": "This is a post request .",
+    "request":{
+      "uri": "/demopost",
+      "method": "post"
+    },
+    "response": {
+      "text":"This is a post First."
+    }
+  },
+  {
+    "description": "This is a post request with param .",
+    "request":{
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "jack",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "text":"This is a post 222 with param ."
+    }
+  }
+]

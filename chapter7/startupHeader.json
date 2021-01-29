@@ -1,0 +1,23 @@
+[
+  {
+    "description": "cookies One Header Post request",
+    "request":{
+      "uri": "/post/Header",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "jack",
+        "age": 18
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "jack": "success成功",
+        "status": 1002
+      }
+    }
+  }
+]
